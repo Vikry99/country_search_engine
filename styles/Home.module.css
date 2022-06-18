@@ -1,3 +1,12 @@
+.titleIndex {
+  font-size: 72px;
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 700;
+  line-height: 85.92px;
+  align-items: center;
+  text-align: center;
+}
+
 .container {
   padding: 0 2rem;
 }
@@ -108,9 +117,15 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+} */
+
+@media screen and (min-width: 720px) {
+  .input {
+    flex: 2;
   }
 }
